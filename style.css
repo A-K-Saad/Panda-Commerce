@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+.bg-lightpink{
+    background: #fceae8;
+}
+/* Header */
+.navbar{
+    background-color: #0000009a;
+}
+.navbar-brand img{
+    width: 5.5rem;
+}
+.main-title{
+    font-family: 'Fredoka One', cursive;
+    font-size: 50px;
+    color: #3c3c3c;
+}
+.buy-btn{
+    background: linear-gradient(#f163bb, #dd066a);
+    color: #fff;
+    padding: 12px 35px;
+}
+.buy-btn-dark{
+    color: #fff;
+    padding: 12px 35px;
+    background: linear-gradient(#000000, #221f21);
+}
+.carousel{
+    margin-top: 90px;
+    border-radius: 15px;
+}
+/* Category */
+.category-single img{
+    width: 7rem;
+}
+.watch-category{
+    background: linear-gradient(#f5d914, #ffa31f);
+    border-radius: 15px;
+}
+.bag-category{
+    background: linear-gradient(#f163bb, #dd066a);
+    border-radius: 15px;
+}
+.shoe-category{
+    background: linear-gradient(#00a1ff, #0004ff);
+    border-radius: 15px;
+}
+/* Display Section */
+.display-section{
+    background: #f9f9f9;
+}
+.shoe-single, .bag-single{
+    background: #fff;
+    border-radius: 15px;
+}
+/* Footer */
+.contact-input{
+    border: none;
+    padding: 15px 31px;
+    width: 45%;
+    font-size: 23px;
+    border-radius: 10px 0 0 10px;
+}
+.btn-send{
+    background: linear-gradient(#ff69b4, #ff056f);
+    padding: 0 40px;
+    border-radius: 0 10px 10px 0;
+    color: #fff;
+    border: none;
+    font-size: 21px;
+}
+
+@media only screen and (max-width:688px) {
+    .main-title{
+        font-size: 35px;
+    }
+    .contact-input{
+        width: 95%;
+        font-size: 19px;
+    }
+}

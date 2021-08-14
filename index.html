@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Commerce</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/bf2572e12f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light p-0 fixed-top">
+                <div class="container">
+                    <a class="navbar-brand p-0 d-flex align-items-center" href="#">
+                        <img src="images/icon.png" alt="">
+                        <h1 class="main-title ps-2">Panda</h1>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold text-dark px-3" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold text-dark px-3" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold text-dark px-3" href="#">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold text-dark px-3" href="#">Pricing</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="container mt-5">
+                <div id="carouselExampleIndicators" class="carousel slide bg-lightpink" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item mt-5 active">
+                            <div class="row px-5 py-3 align-items-center">
+                                <div class="col-12 col-md-7">
+                                    <h1 class="fw-bold">Cool Dude Headphone</h1>
+                                    <p>This is the best headphone in the world for people who just want to waste time in
+                                        front of funky world.</p>
+                                    <h1>$20</h1>
+                                    <button href="#" class="btn buy-btn border-0"><i
+                                            class="fas fa-shopping-cart pe-2"></i>Buy Now</button>
+                                </div>
+                                <div class="col-12 col-md-5">
+                                    <img src="images/headphone.png" class="d-block w-100" alt="Headphone">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item mt-5">
+                            <div class="row px-5 py-3 align-items-center">
+                                <div class="col-12 col-md-7">
+                                    <h1 class="fw-bold">Mega LCD TV For Sports</h1>
+                                    <p>This is the best LCD ever sold. High quality graphics card and cheap and handy.
+                                    </p>
+                                    <h1>$500</h1>
+                                    <button href="#" class="btn buy-btn border-0"><i
+                                            class="fas fa-shopping-cart pe-2"></i>Buy Now</button>
+                                </div>
+                                <div class="col-12 col-md-5">
+                                    <img src="images/tv.png" class="d-block w-100" alt="TV">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item mt-5">
+                            <div class="row px-5 py-3 align-items-center">
+                                <div class="col-12 col-md-7">
+                                    <h1 class="fw-bold">X-Box for your living room</h1>
+                                    <p>Best ever joy stick to play computer games. Multiple functionalities with fastest
+                                        input.</p>
+                                    <h1>$50</h1>
+                                    <button href="#" class="btn buy-btn border-0"><i
+                                            class="fas fa-shopping-cart pe-2"></i>Buy Now</button>
+                                </div>
+                                <div class="col-12 col-md-5">
+                                    <img src="images/xbox.png" class="d-block w-100" alt="XBox">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="container">
+                <article class="category py-5">
+                    <div class="row">
+                        <div class="category-single col-12 col-md-4 p-4">
+                            <div
+                                class="d-flex watch-category align-items-center justify-content-around text-light py-2">
+                                <h2>Watch</h2>
+                                <img src="images/watch.png" alt="">
+                            </div>
+                        </div>
+                        <div class="category-single col-12 col-md-4 p-4">
+                            <div class="d-flex bag-category align-items-center justify-content-around text-light py-2">
+                                <h2>Bag</h2>
+                                <img src="images/bag.png" alt="">
+                            </div>
+                        </div>
+                        <div class="category-single col-12 col-md-4 p-4">
+                            <div class="d-flex shoe-category align-items-center justify-content-around text-light py-2">
+                                <h2>Shoes</h2>
+                                <img src="images/shoes.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section class="display-section py-5">
+                <div class="container">
+                    <article class="shoe-section">
+                        <h1 class="text-center py-4">Shoes</h1>
+                        <div class="row">
+                            <div class="col-12 col-md-4 p-2">
+                                <div class="shoe-single py-4 px-3 text-center shadow-lg card-single">
+                                    <img src="images/shoe-1.png" alt="" class="w-100">
+                                    <h4 class="fw-bold pb-2 pt-4">Reebok Dart Men’s Shoes</h4>
+                                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                                    <h3 class="pb-2">$100</h3>
+                                    <button href="#" class="btn buy-btn-dark"><i class="fas fa-shopping-cart pe-2"></i>Buy
+                                        Now</button>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 p-2">
+                                <div class="shoe-single py-4 px-3 text-center shadow-lg card-single">
+                                    <img src="images/shoe-2.png" alt="" class="w-100">
+                                    <h4 class="fw-bold pb-2 pt-4">Reebok Pump</h4>
+                                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                                    <h3 class="pb-2">$100</h3>
+                                    <button href="#" class="btn buy-btn-dark"><i class="fas fa-shopping-cart pe-2"></i>Buy
+                                        Now</button>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 p-2">
+                                <div class="shoe-single py-4 px-3 text-center shadow-lg card-single">
+                                    <img src="images/shoe-3.png" alt="" class="w-100">
+                                    <h4 class="fw-bold pb-2 pt-4">Reebok All Terrain</h4>
+                                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                                    <h3 class="pb-2">$100</h3>
+                                    <button href="#" class="btn buy-btn-dark"><i class="fas fa-shopping-cart pe-2"></i>Buy
+                                        Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="bag-section">
+                        <h1 class="text-center py-4">Bags</h1>
+                        <div class="row">
+                            <div class="col-12 col-md-4 p-2">
+                                <div class="bag-single py-4 px-3 text-center shadow-lg card-single">
+                                    <img src="images/bag-1.png" alt="" class="w-100">
+                                    <h4 class="fw-bold pb-2 pt-4">Ison Backpack</h4>
+                                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                                    <h3 class="pb-2">$100</h3>
+                                    <button href="#" class="btn buy-btn-dark"><i class="fas fa-shopping-cart pe-2"></i>Buy
+                                        Now</button>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 p-2">
+                                <div class="bag-single py-4 px-3 text-center shadow-lg card-single">
+                                    <img src="images/bag-2.png" alt="" class="w-100">
+                                    <h4 class="fw-bold pb-2 pt-4">Biaowang Backpack</h4>
+                                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                                    <h3 class="pb-2">$100</h3>
+                                    <button href="#" class="btn buy-btn-dark"><i class="fas fa-shopping-cart pe-2"></i>Buy
+                                        Now</button>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 p-2">
+                                <div class="bag-single py-4 px-3 text-center shadow-lg card-single">
+                                    <img src="images/bag-3.png" alt="" class="w-100">
+                                    <h4 class="fw-bold pb-2 pt-4">Dxyizu WS54 Smart</h4>
+                                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+                                    <h3 class="pb-2">$100</h3>
+                                    <button href="#" class="btn buy-btn-dark"><i class="fas fa-shopping-cart pe-2"></i>Buy
+                                        Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+        <footer class="container py-5">
+            <div class="py-5 bg-lightpink rounded-3">
+                <div class="py-5">
+                    <h2 class="fw-bold text-center" id="hello">LET'S STAY IN TOUCH</h2>
+                    <p class="text-center">Get updates on sales specials and more</p>
+                    <div class="contact-field text-center d-flex justify-content-center">
+                        <input type="text" class="contact-input" placeholder="Enter your email">
+                        <button class="btn btn-send">Send</button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
